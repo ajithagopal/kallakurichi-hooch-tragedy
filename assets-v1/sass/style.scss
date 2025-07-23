@@ -184,12 +184,28 @@ $sub-font: 'Merriweather Sans', sans-serif;
             }
         }
     }
+
+& > .container{
+    overflow: unset;
+}
 }
 .header-end{
     height: 73px;
     display: block;
     margin: 0;
     width: 100%;
+}
+.animate-here{
+    .publish-time {
+        color: #fff;
+        font-size: 12px;
+        line-height: normal;
+        text-align: center;
+        font-family: "Merriweather Sans", sans-serif;
+        font-weight: bold;
+        margin: 10px 0 0px;
+        text-transform: none;
+    }
 }
 @media screen and (min-width:1650px){
     .header{
@@ -697,6 +713,7 @@ p{
     }
     &.stalin{
         height: 600px;
+        width: auto;
         shape-outside: url(../images/08.png);
         margin-left: 20px;
         shape-margin: 20px;
@@ -1136,6 +1153,7 @@ p{
             height: 700px;
             margin-left: 30px;
             shape-margin: 30px;
+            width: auto;
         }
     }
     .section-title{

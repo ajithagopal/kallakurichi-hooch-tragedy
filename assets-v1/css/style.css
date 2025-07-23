@@ -151,6 +151,9 @@
   content: "";
   background: url(../images/reddit-share-icon.svg) no-repeat 0px 6px;
 }
+.header > .container {
+  overflow: unset;
+}
 
 .header-end {
   height: 73px;
@@ -158,6 +161,7 @@
   margin: 0;
   width: 100%;
 }
+
 .animate-here .publish-time {
   color: #fff;
   font-size: 12px;
@@ -168,6 +172,7 @@
   margin: 10px 0 0px;
   text-transform: none;
 }
+
 @media screen and (min-width: 1650px) {
   .header .nav-bar {
     padding: 25px 0;
@@ -179,7 +184,6 @@
   .header .nav-bar .share .share-btn {
     font-size: 18px;
   }
-
   .header-end {
     height: 88px;
   }
@@ -203,7 +207,6 @@
     height: 17px;
     background-size: 25px 17px;
   }
-
   .header-end {
     height: 54px;
   }
@@ -230,7 +233,6 @@
     height: 14px;
     background-size: 20px 14px;
   }
-
   .header-end {
     height: 54px;
   }
@@ -585,6 +587,7 @@ p .read-more {
 }
 .warp-text-img.stalin {
   height: 600px;
+  width: auto;
   shape-outside: url(../images/08.png);
   margin-left: 20px;
   shape-margin: 20px;
@@ -925,7 +928,6 @@ p .read-more {
     max-width: 1000px;
     margin: -350px auto 0;
   }
-
   .picture img {
     width: max-content;
     max-width: 950px;
@@ -949,7 +951,6 @@ p .read-more {
   .picture.handcuffs img {
     width: 500px;
   }
-
   p {
     font-size: 40px;
     line-height: 48px;
@@ -964,19 +965,17 @@ p .read-more {
     line-height: 250px;
     font-family: "Bangers", system-ui;
   }
-
   .warp-text-img.stalin {
     height: 700px;
     margin-left: 30px;
     shape-margin: 30px;
+    width: auto;
   }
-
   .section-title {
     font-size: 70px;
     max-width: 950px;
     margin: 30px auto;
   }
-
   .hospital-emergency .white-bg {
     padding-bottom: 80px;
   }
@@ -992,7 +991,6 @@ p .read-more {
     bottom: 100px;
     max-width: 300px;
   }
-
   .few-km .picture {
     max-width: 1000px;
   }
@@ -1006,7 +1004,6 @@ p .read-more {
   .few-km .picture h3 {
     font-size: 35px;
   }
-
   .methanol .section-title {
     font-size: 80px;
   }
@@ -1061,7 +1058,6 @@ p .read-more {
   .methanol .beds-and-doc .picture {
     margin-top: -300px;
   }
-
   .the-govt {
     margin: -250px 0 0;
   }
@@ -1145,7 +1141,6 @@ p .read-more {
     bottom: 0;
     z-index: -1;
   }
-
   .picture img {
     max-width: 700px;
   }
@@ -1163,7 +1158,6 @@ p .read-more {
   .picture.handcuffs img {
     width: 300px;
   }
-
   p {
     font-size: 30px;
     line-height: 38px;
@@ -1176,7 +1170,6 @@ p .read-more {
   p .read-more {
     font-size: 20px;
   }
-
   .few-km {
     display: block;
   }
@@ -1194,12 +1187,10 @@ p .read-more {
     font-size: 20px;
     max-width: 260px;
   }
-
   .section-title {
     font-size: 60px;
     max-width: 700px;
   }
-
   .hospital-emergency .white-bg {
     padding-bottom: 0px;
   }
@@ -1222,7 +1213,6 @@ p .read-more {
     bottom: 100px;
     max-width: 200px;
   }
-
   .methanol .section-title {
     font-size: 45px;
   }
@@ -1295,7 +1285,6 @@ p .read-more {
   .methanol .beds-and-doc .picture {
     margin-top: -200px;
   }
-
   .the-govt {
     position: relative;
     margin: -210px 0 0;
@@ -1330,14 +1319,12 @@ p .read-more {
     max-width: 200px;
     margin: 0 0;
   }
-
   .warp-text-img.stalin {
     height: 500px;
     shape-outside: url(../images/08.png);
     margin-left: 15px;
     shape-margin: 15px;
   }
-
   .prefer-hooch .white-bg {
     padding: 30px 0 10px;
   }
@@ -1347,7 +1334,6 @@ p .read-more {
     width: 100%;
     padding: 0 0;
   }
-
   .top-section .black-bg {
     padding: 10px 0 0;
   }
@@ -1395,7 +1381,6 @@ p .read-more {
     max-width: 100%;
     margin: -200px auto 0;
   }
-
   .picture img {
     max-width: 100%;
   }
@@ -1418,7 +1403,6 @@ p .read-more {
   .picture.fire-img {
     margin-top: -250px;
   }
-
   p {
     font-size: 18px;
     line-height: 22px;
@@ -1431,7 +1415,6 @@ p .read-more {
   p .read-more {
     font-size: 14px;
   }
-
   .few-km {
     display: block;
   }
@@ -1473,13 +1456,11 @@ p .read-more {
     font-size: 18px;
     max-width: 260px;
   }
-
   .section-title {
     font-size: 50px;
     max-width: calc(100% - 36px);
     margin: 20px auto;
   }
-
   .hospital-emergency .white-bg {
     padding-bottom: 0px;
   }
@@ -1506,7 +1487,6 @@ p .read-more {
     bottom: 0px;
     max-width: 100px;
   }
-
   .methanol {
     margin-top: 20px;
   }
@@ -1586,7 +1566,6 @@ p .read-more {
   .methanol .beds-and-doc .picture {
     margin-top: -80px;
   }
-
   .the-govt {
     position: relative;
     margin: -100px 0 0;
@@ -1632,7 +1611,6 @@ p .read-more {
     text-align: right;
     margin-right: 15px;
   }
-
   .warp-text-img.stalin {
     height: auto;
     shape-outside: unset;
@@ -1641,11 +1619,9 @@ p .read-more {
     width: 100%;
     max-width: 400px;
   }
-
   .picture:has(.stalin) {
     margin-top: -20px;
   }
-
   .prefer-hooch .white-bg {
     padding: 30px 0 10px;
   }
@@ -1715,7 +1691,6 @@ p .read-more {
     padding: 20px 18px;
     background: #ffffff;
   }
-
   .source .small-title-with-icon {
     font-size: 16px;
     margin: 15px 0;
@@ -1752,11 +1727,9 @@ p .read-more {
   .container:has(.source) {
     padding: 0px 18px 30px;
   }
-
   .normal-section {
     margin: 30px 0;
   }
-
   .source p.authors span::after, .source p.authors span.no-spliter::after {
     content: "|";
     margin: 0px 10px;
@@ -1955,7 +1928,6 @@ a.element:hover .picture img {
   .element .sub-text {
     font-size: 14px;
   }
-
   .five-line-title {
     margin: 20px auto 10px;
   }
@@ -1993,15 +1965,12 @@ a.element:hover .picture img {
   .element .content {
     margin-top: 0px;
   }
-
   a.element {
     display: flex;
   }
-
   .col-12:last-child .element {
     border-bottom: none;
   }
-
   .five-line-title {
     margin: 30px auto 0px;
   }
